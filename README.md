@@ -90,11 +90,49 @@ La Beta 0.1 incluye:
 - Nuevas pistas relacionadas con la desaparición de la estación y la villa.
 
 
-## Flujo narrativo
+## Instalación
+
+Para instalar Proyecto Eclipse es necesario contar con Stardew Valley, SMAPI y Content Patcher.
+
+### Requisitos
+
+- Stardew Valley instalado.
+- SMAPI 4.5.2 o una versión compatible.
+- Content Patcher 2.9.1 o una versión compatible.
+
+### Pasos de instalación
+
+1. Instalar **SMAPI** en la instalación de Stardew Valley.
+
+2. Instalar **Content Patcher** dentro de la carpeta `Mods` de Stardew Valley.
+
+3. Descargar o copiar la carpeta del proyecto `LaSextaEstacion`.
+
+4. Colocar la carpeta completa dentro de la carpeta `Mods` de Stardew Valley.
+
+La estructura debe quedar de la siguiente manera:
+
+
+Stardew Valley
+│
+└── Mods
+    │
+    ├── Content Patcher
+    │
+    └── LaSextaEstacion
+        ├── assets
+        ├── data
+        ├── content.json
+        ├── manifest.json
+        ├── README.md
+        └── CHANGELOG.md
+
+
+### Flujo narrativo
 
 La progresión principal de la Beta 0.1 es:
 
-```text
+
 DÍA 1
 Inicio normal de Stardew Valley
         ↓
