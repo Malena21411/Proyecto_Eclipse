@@ -1,0 +1,14 @@
+{
+  "Changes": [
+    {
+      "LogName": "Proyecto Eclipse - Lewis Día 2",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "Introduction": "¡Bienvenido a Pueblo Pelícano!$h#$b#Espero que disfrutes de tu nueva vida aquí.$h#$b#...Aunque debo advertirte que últimamente han estado ocurriendo algunas cosas un poco extrañas.$s#$b#Si has venido a preguntarme por ciertos asuntos del pasado, mi consejo es que no hagas demasiadas preguntas.$u#$b#Algunas historias del valle es mejor dejarlas donde están.$s#$b#Y si alguien te pidió que investigaras... ten cuidado con quién decides escuchar.",
+
+        "PE_Informe001": "Así que encontraste el informe...$s#$b#Sabía que tarde o temprano alguien volvería a encontrarlo.$u#$b#No voy a decirte quién lo escribió ni por qué desapareció de los registros.$s#$b#Pero sí puedo decirte una cosa...$s#$b#La estación existió.$u#$b#Y hay una razón por la que nadie habla de ella.$s#$b#Si realmente quieres saber qué ocurrió, habla con Sebastian.$s#$b#Él conoce lugares del valle que los demás prefieren ignorar.$u#$b#Pero no le digas que fui yo quien te envió."
+      }
+    }
+  ]
+}

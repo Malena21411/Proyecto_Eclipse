@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "LogName": "Proyecto Eclipse - Correo Inicial",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "PE_Introduccion": "Agricultor:^No sé cuánto tiempo llevas en Pueblo Pelícano, pero necesito pedirte un favor.^Encontré algo que no logro explicar y no quiero hablar de ello por escrito.^Antes de decirte más, necesito saber si alguien del pueblo recuerda algo sobre ello.^Habla con Lewis.^No le digas que recibiste esta carta.^Si sabe algo, probablemente intentará convencerte de que lo olvides.^Cuando hayas hablado con él, ve a la tienda de Pierre. Te estaré esperando allí.^Ven solo.^No le muestres esta carta a nadie.^- A.[#]Carta sin remitente"
+      }
+    },
+    {
+      "LogName": "Proyecto Eclipse - Trigger Correo",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Malena.ProyectoEclipse_PrimerCorreo": {
+          "Id": "Malena.ProyectoEclipse_PrimerCorreo",
+          "Trigger": "DayStarted",
+          "Condition": "!PLAYER_HAS_MAIL Current PE_Introduccion",
+          "Actions": [
+            "AddMail Current PE_Introduccion Tomorrow"
+          ]
+        }
+      }
+    }
+  ]
+}

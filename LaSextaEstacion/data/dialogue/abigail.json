@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Proyecto Eclipse - Abigail Día 2",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "Introduction": "Viniste...$u#$b#Entonces Lewis no consiguió convencerte de que dejaras el asunto.$s#$b#Supongo que eso significa que podemos hablar.$u#$b#Fui yo quien te envió la carta.$4#$b#Encontré algo que no debería estar ahí.$s#$b#Y creo que alguien se aseguró de que nadie volviera a encontrarlo.$u#$b#No puedo explicártelo todo ahora... pero puedo enseñarte lo que encontré."
+      }
+    }
+  ]
+}

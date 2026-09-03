@@ -1,0 +1,47 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Proyecto Eclipse - Correos",
+      "Action": "Include",
+      "FromFile": "data/mail/inicio.json"
+    },
+    {
+      "LogName": "Proyecto Eclipse - Dialogo Lewis",
+      "Action": "Include",
+      "FromFile": "data/dialogue/lewis.json"
+    },
+    {
+      "LogName": "Proyecto Eclipse - Dialogo Abigail",
+      "Action": "Include",
+      "FromFile": "data/dialogue/abigail.json"
+    },
+    {
+      "LogName": "Proyecto Eclipse - Informe 001",
+      "Action": "Include",
+      "FromFile": "data/mail/informe001.json"
+    },
+    {
+      "LogName": "Proyecto Eclipse - Dialogo Sebastian",
+      "Action": "Include",
+      "FromFile": "data/dialogue/sebastian.json"
+    },
+    {
+      "LogName": "Proyecto Eclipse - Informe 002",
+      "Action": "Include",
+      "FromFile": "data/mail/informe002.json"
+    },
+    {
+      "LogName": "Proyecto Eclipse - Fotografía Estación",
+      "Action": "Include",
+      "FromFile": "data/mail/fotografia.json"
+    },
+    {
+      "LogName": "Proyecto Eclipse - Fotografía Estación Asset",
+      "Action": "Load",
+      "Target": "ProyectoEclipse/FotografiaEstacion",
+      "FromFile": "assets/documents/informe002.png"
+    }
+  ]
+}
+

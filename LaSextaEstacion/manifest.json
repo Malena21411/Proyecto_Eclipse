@@ -1,0 +1,11 @@
+{
+  "Name": "Proyecto Eclipse",
+  "Author": "Malena",
+  "Version": "0.1.0",
+  "Description": "Expansión narrativa para Stardew Valley: Proyecto Eclipse.",
+  "UniqueID": "Malena.ProyectoEclipse",
+  "MinimumApiVersion": "4.5.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Changes": [
+    {
+      "LogName": "Proyecto Eclipse - Informe 002",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "PE_Informe002": "PROYECTO ECLIPSE^INFORME 002 — REGISTRO DE CAMPO^Clasificación: ████████^Estado: COPIA NO OFICIAL^Origen: Archivo personal^^El documento hace referencia a una antigua estación ubicada en las proximidades del valle.^^Según el registro, la estación no se encontraba completamente aislada.^^Existía una pequeña villa vinculada a la línea ferroviaria.^^Los registros oficiales posteriores no mencionan ninguna de las dos.^^[SECCIÓN CENSURADA]^^La última anotación legible indica:^ ^\"La estación no fue abandonada. Fue...\"^ ^[████████████████]^^Se desconoce qué ocurrió posteriormente.^^En el margen inferior alguien escribió:^ ^\"Si alguien encuentra esto, no debe seguir las vías.\"^^FIN DEL INFORME 002[#]Proyecto Eclipse — Informe 002"
+      }
+    },
+    {
+      "LogName": "Proyecto Eclipse - Envío Informe 002 y Fotografía",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Malena.ProyectoEclipse_Informe002": {
+          "Id": "Malena.ProyectoEclipse_Informe002",
+          "Trigger": "DayStarted",
+          "Condition": "DAY_OF_MONTH 4",
+          "Actions": [
+            "AddMail Current PE_Informe002 Now",
+            "AddMail Current PE_FotografiaEstacion Now"
+          ]
+        }
+      }
+    }
+  ]
+}

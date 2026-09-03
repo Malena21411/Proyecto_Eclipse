@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "Proyecto Eclipse - Sebastian Diálogo Normal",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "Entries": {
+        "Introduction": "Hola. ¿Eres el nuevo agricultor?"
+      }
+    },
+    {
+      "LogName": "Proyecto Eclipse - Sebastian Proyecto Eclipse",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "Entries": {
+        "Introduction": "¿Lewis te habló de la estación?$s#$b#Entonces supongo que ya no tiene sentido seguir fingiendo que no existe.$u#$b#Hace años encontré algo sobre ella en unos documentos antiguos.$s#$b#No sé por qué desapareció de los registros oficiales.$u#$b#Pero encontré una referencia que menciona una estación abandonada... y una pequeña villa que estaba conectada con ella.$s#$b#Tengo una copia del documento.$s#$b#No debería enseñártelo, pero después de todo lo que ya descubriste.$s#$b#Hay partes que fueron censuradas. Algunas palabras ni siquiera pudieron recuperarse.$u#$b#Solo hay una cosa que me llamó la atención.$s#$b#En el margen inferior alguien escribió: \"Eclipse\".$s#$b#Guarda esto. Y no se lo enseñes a Lewis.$s#$b#Mañana te enviaré una copia del informe. Léelo con cuidado.$u"
+      }
+    }
+  ]
+}
